@@ -7,6 +7,7 @@ public class t1 {
         int[] nums={1,-1,-1,0};
         t1 t=new t1();
         List<List<Integer>> result= t.threeSum(nums);
+        System.out.println(nums);
         System.out.println(result);
     }
     public List<List<Integer>> threeSum(int[] nums) {
